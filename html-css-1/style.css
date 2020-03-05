@@ -106,3 +106,63 @@ html body{
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
   }
+
+  .g_box{
+      height: 250px;
+      width: 250px;
+      background-color: #A4FFD7;
+      border-radius: 15px;
+      margin-top: 40px;
+
+  }
+
+  .three_boxes{
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .o_box{
+      height: 200px;
+      width: 450px;
+      background-color: #FFC36C;
+      margin-top: 40px;
+  }
+
+  .two_boxes{
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .content{
+      width: 940px;
+      margin: 0 auto;
+  }
+
+  .text_content{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+  }
+
+  .info_boxes{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 40px;
+      height: 200px;
+      width: 400px;
+      font-size: 12px;
+  }
+
+  .info_boxes > img {
+      height: auto;
+      width: 65%;
+  }
+
+  .footer{
+      height: 80px;
+      width: 100%;
+      background-color: #3A3A56;
+      margin-top: 40px;
+  }
+
