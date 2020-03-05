@@ -52,14 +52,16 @@ function setColor(arr) {
 
     for (let i = 0; i < arr.length; i++) {
         if (arr[i] === 'blue') {
-            return arr[i] = '#4D4DFF';
+            arr[i] = '#4D4DFF';
         }
         
     }
-
+    console.log(arr)
 
     background(arr[0],arr[1],arr[2]);
 }
+
+console.log(setColor(faveColors));
 // CODE HERE
 
 //////////////////Step 5////////////////////
