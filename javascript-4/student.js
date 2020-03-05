@@ -57,7 +57,8 @@ function setColor(arr) {
         
     }
 
-    background(...arr);
+
+    background(arr[0],arr[1],arr[2]);
 }
 // CODE HERE
 
